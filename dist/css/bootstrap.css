@@ -282,6 +282,27 @@ th {
 .fa-user:before {
   content: "\f007";
 }
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-phone:before {
+  content: "\f095";
+}
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+.fa-laptop:before {
+  content: "\f109";
+}
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -478,23 +499,23 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 23px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 21px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 14px;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 12px;
 }
 h6,
 .h6 {
@@ -622,9 +643,7 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  margin: 10px 0 20px;
 }
 ul,
 ol {
@@ -2676,6 +2695,72 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
+}
+.btn-ah {
+  color: #fff;
+  background-color: #715da9;
+  border-color: #65529a;
+}
+.btn-ah:focus,
+.btn-ah.focus {
+  color: #fff;
+  background-color: #5a498a;
+  border-color: #2f2647;
+}
+.btn-ah:hover {
+  color: #fff;
+  background-color: #5a498a;
+  border-color: #4b3d73;
+}
+.btn-ah:active,
+.btn-ah.active,
+.open > .dropdown-toggle.btn-ah {
+  color: #fff;
+  background-color: #5a498a;
+  border-color: #4b3d73;
+}
+.btn-ah:active:hover,
+.btn-ah.active:hover,
+.open > .dropdown-toggle.btn-ah:hover,
+.btn-ah:active:focus,
+.btn-ah.active:focus,
+.open > .dropdown-toggle.btn-ah:focus,
+.btn-ah:active.focus,
+.btn-ah.active.focus,
+.open > .dropdown-toggle.btn-ah.focus {
+  color: #fff;
+  background-color: #4b3d73;
+  border-color: #2f2647;
+}
+.btn-ah:active,
+.btn-ah.active,
+.open > .dropdown-toggle.btn-ah {
+  background-image: none;
+}
+.btn-ah.disabled,
+.btn-ah[disabled],
+fieldset[disabled] .btn-ah,
+.btn-ah.disabled:hover,
+.btn-ah[disabled]:hover,
+fieldset[disabled] .btn-ah:hover,
+.btn-ah.disabled:focus,
+.btn-ah[disabled]:focus,
+fieldset[disabled] .btn-ah:focus,
+.btn-ah.disabled.focus,
+.btn-ah[disabled].focus,
+fieldset[disabled] .btn-ah.focus,
+.btn-ah.disabled:active,
+.btn-ah[disabled]:active,
+fieldset[disabled] .btn-ah:active,
+.btn-ah.disabled.active,
+.btn-ah[disabled].active,
+fieldset[disabled] .btn-ah.active {
+  background-color: #715da9;
+  border-color: #65529a;
+}
+.btn-ah .badge {
+  color: #715da9;
+  background-color: #fff;
 }
 .caret {
   display: inline-block;
